@@ -1,0 +1,15 @@
+.board {
+  display: flex;
+  > *:not(:first-of-type) {
+    margin-left: 24px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .board{
+    flex-direction: column;
+    > *:not(:first-of-type) {
+      margin-left: 0px;
+    }
+  }
+}

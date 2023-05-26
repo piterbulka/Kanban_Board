@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  flex-flow: column;
+  background-color: #0079BF;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 24px 16px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .layout{
+    overflow-y: scroll;
+    main {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
