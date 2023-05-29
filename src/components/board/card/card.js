@@ -4,10 +4,7 @@ import {Button} from "../../shared/buttons/button/button";
 import {IconRemove} from "../../shared/icons/icon-remove";
 import {useTasks} from "../../../hooks/tasks/use-tasks";
 import {useEffect, useState} from "react";
-import Scrollbars from "react-custom-scrollbars-2";
-import {IconConfirm} from "../../shared/icons/icon-confirm";
 import React from 'react';
-
 
 export const Card = () => {
     const navigate = useNavigate();

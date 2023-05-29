@@ -2,26 +2,6 @@ import {TaskContext} from "./task-context";
 import {useEffect, useState} from "react";
 import React from 'react';
 
-/*
-
-State
-{
- id: number,
- name: string,
- state: string
-}
-
-{
-
-Task
-{
-    id: number,
-    name: string,
-    description: string | undefined
-    state: string => state.state
-}
-
- */
 
 export const TaskProvider = (props) => {
     const [tasks, setTasks] = useState([]);

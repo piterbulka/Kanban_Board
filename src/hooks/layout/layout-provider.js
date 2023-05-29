@@ -33,7 +33,6 @@ export const LayoutProvider = (props) => {
     const context = {
         mainContentHeight: windowSize
             ? windowSize.height - headerHeight - footerHeight
-              // padding-top, padding-bottom, column header height
               - 24 - 24 - 48
             : 0
     }
